@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio>
+    <item id="001">
+        <nome_prato>Salada Mediterrânea</nome_prato>
+        <descricao>Uma salada leve e refrescante com ingredientes típicos da culinária mediterrânea.</descricao>
+        <ingredientes>
+            Alface romana, tomate-cereja, pepino, azeitonas pretas, queijo feta, cebola roxa, azeite de oliva, orégano.
+        </ingredientes>
+        <preco>R$ 28,00</preco>
+        <calorias>230 kcal</calorias>
+        <tempo_preparo>10 minutos</tempo_preparo>
+    </item>
+     
+    <item id="002">
+        <nome_prato>Spaghetti à Bolonhesa</nome_prato>
+        <descricao>Massa al dente servida com molho de carne moída e tomate caseiro.</descricao>
+        <ingredientes>
+            Spaghetti, carne bovina moída, molho de tomate, cebola, alho, azeite, sal, pimenta-do-reino, manjericão.
+        </ingredientes>
+        <preco>R$ 42,00</preco>
+        <calorias>580 kcal</calorias>
+        <tempo_preparo>20 minutos</tempo_preparo>
+    </item>
+
+    <item id="003">
+        <nome_prato>Frango Grelhado com Legumes</nome_prato>
+        <descricao>Filé de frango grelhado acompanhado de legumes salteados no azeite.</descricao>
+        <ingredientes>
+            Peito de frango, abobrinha, cenoura, pimentão, brócolis, azeite de oliva, alho, ervas finas.
+        </ingredientes>
+        <preco>R$ 36,00</preco>
+        <calorias>410 kcal</calorias>
+        <tempo_preparo>18 minutos</tempo_preparo>
+    </item>
+
+    <item id="004">
+        <nome_prato>Burger Artesanal S&amp;A</nome_prato>
+        <descricao>Hambúrguer artesanal com blend de carnes nobres, servido com queijo cheddar, alface, tomate e molho da casa.</descricao>
+        <ingredientes>
+            Pão brioche, hambúrguer 180g (blend bovino), queijo cheddar, alface americana, tomate, cebola caramelizada, maionese artesanal.
+        </ingredientes>
+        <preco>R$ 39,00</preco>
+        <calorias>780 kcal</calorias>
+        <tempo_preparo>15 minutos</tempo_preparo>
+    </item>
+    
+    <item id="005">
+        <nome_prato>Cheesecake de Frutas Vermelhas</nome_prato>
+        <descricao>Sobremesa clássica americana com cobertura de frutas vermelhas frescas.Burger Artesanal S&amp;A</descricao>
+        <ingredientes>
+            Biscoito amanteigado, cream cheese, açúcar, ovos, creme de leite, geleia de frutas vermelhas, morangos, amoras e framboesas.
+        </ingredientes>
+        <preco>R$ 24,00</preco>
+        <calorias>450 kcal</calorias>
+        <tempo_preparo>12 minutos (preparo prévio em geladeira)</tempo_preparo>
+    </item>
+</cardapio>
