@@ -1,28 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE imobiliaria [
-<!ELEMENT imobiliaria (imovel+)>
-<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
-<!ATTLIST imovel id ID #REQUIRED>
-<!ELEMENT descricao (#PCDATA)>
-
-<!ELEMENT proprietario (nome, (telefone|email)+)>
-<!ELEMENT nome (#PCDATA)>
-<!ELEMENT telefone (#PCDATA)>
-<!ELEMENT email (#PCDATA)>
-
-<!ELEMENT endereco (rua, numero, bairro, cidade)>
-<!ELEMENT rua (#PCDATA)>
-<!ELEMENT numero (#PCDATA)>
-<!ELEMENT bairro (#PCDATA)>
-<!ELEMENT cidade (#PCDATA)>
-
-<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
-<!ELEMENT tamanho (#PCDATA)>
-<!ELEMENT numQuartos (#PCDATA)>
-<!ELEMENT numBanheiros (#PCDATA)>
-
-<!ELEMENT valor (#PCDATA)>
-]>
 
 <imobiliaria>
     <imovel id="I01">
