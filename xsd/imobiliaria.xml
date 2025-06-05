@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ATTLIST imovel id ID #REQUIRED>
+<!ELEMENT descricao (#PCDATA)>
+
+<!ELEMENT proprietario (nome, (telefone|email)+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT endereco (rua, numero, bairro, cidade)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+
+<!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel id="I01">
+        <descricao>Apartamento de 2 quartos, 1 banheiro, sala e cozinha.</descricao>
+        <proprietario>
+            <nome>João da Silva</nome>
+            <telefone>11999998888</telefone>
+            <telefone>1123456789</telefone>
+            <email>joao.silva@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <numero>123</numero>
+            <bairro>Centro</bairro>
+            <cidade>São Paulo</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>65</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>350000.00</valor>
+    </imovel>
+
+    <imovel id="I02">
+        <descricao>Studio moderno com varanda.</descricao>
+        <proprietario>
+            <nome>Maria Oliveira</nome>
+            <telefone>11988887777</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Av. Paulista</rua>
+            <numero>1500</numero>
+            <bairro>Bela Vista</bairro>
+            <cidade>São Paulo</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>40</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>420000.00</valor>
+    </imovel>
+
+    <imovel id="I03">
+        <descricao>Casa térrea com quintal amplo.</descricao>
+        <proprietario>
+            <nome>Carlos Andrade</nome>
+            <telefone>11977776666</telefone>
+            <email>carlos.a@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua dos Pinheiros</rua>
+            <numero>850</numero>
+            <bairro>Pinheiros</bairro>
+            <cidade>São Paulo</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>780000.00</valor>
+    </imovel>
+
+    <imovel id="I04">
+        <descricao>Terreno em bairro residencial plano.</descricao>
+        <proprietario>
+            <nome>Fernanda Lima</nome>
+            <telefone>19987654321</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Hortênsias</rua>
+            <numero>0</numero>
+            <bairro>Vila Nova</bairro>
+            <cidade>Campinas</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>360</tamanho>
+            <numQuartos>0</numQuartos>
+            <numBanheiros>0</numBanheiros>
+        </caracteristicas>
+        <valor>250000.00</valor>
+    </imovel>
+
+    <imovel id="I05">
+        <descricao>Casa de alto padrão com piscina e jardim.</descricao>
+        <proprietario>
+            <nome>Luciana Torres</nome>
+            <telefone>11933334444</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Av. Brasil</rua>
+            <numero>456</numero>
+            <bairro>Jardins</bairro>
+            <cidade>São Paulo</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>200</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>1350000.00</valor>
+    </imovel>
+</imobiliaria>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+    <disciplina>Lógica de Programação</disciplina>
+    <professor>
+        <nome>Prof. João Silva</nome>
+        <matrícula>123456</matrícula>
+    </professor>
+    <turma>ADS2025-M1</turma>
+    <data>2025-05-22</data>
+    <questões>
+        <questão>
+            <enunciado>Qual das opções abaixo representa corretamente a estrutura de repetição "enquanto" em pseudocódigo?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">para i de 1 até 10 faça</alternativa>
+                <alternativa correta="nao">se condição então</alternativa>
+                <alternativa correta="sim">enquanto condição faça</alternativa>
+                <alternativa correta="nao">escreva("Olá Mundo")</alternativa>
+                <alternativa correta="nao">fim-se</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
