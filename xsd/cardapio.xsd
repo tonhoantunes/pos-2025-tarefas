@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-    xmlns:p="http://cardapio.org"
+    xmlns:c="http://cardapio.org"
     targetNamespace="http://cardapio.org"
     elementFormDefault="qualified">
 
