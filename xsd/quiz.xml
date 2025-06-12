@@ -19,5 +19,49 @@
                 <alternativa correta="nao">fim-se</alternativa>
             </alternativas>
         </questão>
+        <questão>
+            <enunciado>Qual comando é utilizado para exibir uma mensagem na tela em pseudocódigo?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="sim">escreva("mensagem")</alternativa>
+                <alternativa correta="nao">leia(mensagem)</alternativa>
+                <alternativa correta="nao">se mensagem então</alternativa>
+                <alternativa correta="nao">retorne mensagem</alternativa>
+                <alternativa correta="nao">variável <- mensagem</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Em pseudocódigo, qual das alternativas representa corretamente uma estrutura condicional simples?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">para i de 1 até 10 faça</alternativa>
+                <alternativa correta="sim">se condição então</alternativa>
+                <alternativa correta="nao">enquanto condição faça</alternativa>
+                <alternativa correta="nao">escreva("condição")</alternativa>
+                <alternativa correta="nao">fim-enquanto</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual das opções abaixo é um operador lógico utilizado em pseudocódigo?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">+</alternativa>
+                <alternativa correta="nao">-</alternativa>
+                <alternativa correta="sim">E</alternativa>
+                <alternativa correta="nao">%</alternativa>
+                <alternativa correta="nao">/</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual das opções abaixo representa corretamente uma estrutura de repetição com contador em pseudocódigo?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="sim">para i de 1 até 10 faça</alternativa>
+                <alternativa correta="nao">se condição então</alternativa>
+                <alternativa correta="nao">enquanto condição faça</alternativa>
+                <alternativa correta="nao">escreva("Olá Mundo")</alternativa>
+                <alternativa correta="nao">fim-se</alternativa>
+            </alternativas>
+        </questão>
     </questões>
 </quiz>
