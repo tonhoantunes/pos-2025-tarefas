@@ -1,0 +1,92 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Lógica de Programação",
+      "professor": {
+        "nome": "Prof. João Silva",
+        "matrícula": "123456"
+      },
+      "turma": "ADS2025-M1",
+      "data": "2025-05-22",
+      "questões": [
+        {
+          "enunciado": "Qual das opções abaixo representa corretamente a estrutura de repetição \"enquanto\" em pseudocódigo?",
+          "pontuação": "1.0",
+          "alternativas": [
+            {
+              "texto": "para i de 1 até 10 faça",
+              "correta": "nao"
+            },
+            {
+              "texto": "se condição então",
+              "correta": "nao"
+            },
+            {
+              "texto": "enquanto condição faça",
+              "correta": "sim"
+            },
+            {
+              "texto": "escreva(\"Olá Mundo\")",
+              "correta": "nao"
+            },
+            {
+              "texto": "fim-se",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "enunciado": "Qual comando é utilizado para exibir uma mensagem na tela em pseudocódigo?",
+          "pontuação": "1.0",
+          "alternativas": [
+            {
+              "texto": "escreva(\"mensagem\")",
+              "correta": "sim"
+            },
+            {
+              "texto": "leia(mensagem)",
+              "correta": "nao"
+            },
+            {
+              "texto": "se mensagem então",
+              "correta": "nao"
+            },
+            {
+              "texto": "retorne mensagem",
+              "correta": "nao"
+            },
+            {
+              "texto": "variável <- mensagem",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "enunciado": "Em pseudocódigo, qual das alternativas representa corretamente uma estrutura condicional simples?",
+          "pontuação": "1.0",
+          "alternativas": [
+            {
+              "texto": "para i de 1 até 10 faça",
+              "correta": "nao"
+            },
+            {
+              "texto": "se condição então",
+              "correta": "sim"
+            },
+            {
+              "texto": "enquanto condição faça",
+              "correta": "nao"
+            },
+            {
+              "texto": "escreva(\"condição\")",
+              "correta": "nao"
+            },
+            {
+              "texto": "fim-enquanto",
+              "correta": "nao"
+            }
+          ]
+        }
+      ]
+    }
+  }

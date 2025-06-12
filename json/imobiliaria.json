@@ -1,0 +1,47 @@
+{
+    "imobiliaria": {
+      "imoveis": 
+      [
+        {
+          "descricao": "Apartamento com vista para o mar",
+          "proprietario": {
+            "nome": "Carlos Silva",
+            "telefone": ["(11) 98765-4321", "(11) 91234-5678"],
+            "email": "carlos.silva@email.com"
+          },
+          "endereco": {
+            "rua": "Av. Atlântica",
+            "numero": 123,
+            "bairro": "Centro",
+            "cidade": "Rio de Janeiro"
+          },
+          "caracteristicas": {
+            "tamanho": 120.5,
+            "numQuartos": 3,
+            "numBanheiros": 2
+          },
+          "valor": "R$ 1.200.000,00"
+        },
+        {
+          "descricao": "Casa com piscina e jardim",
+          "proprietario": {
+            "nome": "Ana Pereira",
+            "telefone": ["(21) 99876-5432"],
+            "email": "ana.pereira@email.com"
+          },
+          "endereco": {
+            "rua": "Rua das Flores",
+            "numero": 45,
+            "bairro": "Jardim Primavera",
+            "cidade": "São Paulo"
+          },
+          "caracteristicas": {
+            "tamanho": 250.0,
+            "numQuartos": 4,
+            "numBanheiros": 3
+          },
+          "valor": "R$ 850.000,00"
+        }
+      ]
+    }
+  }

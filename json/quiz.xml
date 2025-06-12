@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz versao="1.0">
+    <disciplina>Lógica de Programação</disciplina>
+    <professor>
+        <nome>Prof. João Silva</nome>
+        <matrícula>123456</matrícula>
+    </professor>
+    <turma>ADS2025-M1</turma>
+    <data>2025-05-22</data>
+    <questões>
+        <questão>
+            <enunciado>Qual das opções abaixo representa corretamente a estrutura de repetição "enquanto" em pseudocódigo?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">para i de 1 até 10 faça</alternativa>
+                <alternativa correta="nao">se condição então</alternativa>
+                <alternativa correta="sim">enquanto condição faça</alternativa>
+                <alternativa correta="nao">escreva("Olá Mundo")</alternativa>
+                <alternativa correta="nao">fim-se</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual comando é utilizado para exibir uma mensagem na tela em pseudocódigo?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="sim">escreva("mensagem")</alternativa>
+                <alternativa correta="nao">leia(mensagem)</alternativa>
+                <alternativa correta="nao">se mensagem então</alternativa>
+                <alternativa correta="nao">retorne mensagem</alternativa>
+                <alternativa correta="nao">variável &lt;- mensagem</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Em pseudocódigo, qual das alternativas representa corretamente uma estrutura condicional simples?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">para i de 1 até 10 faça</alternativa>
+                <alternativa correta="sim">se condição então</alternativa>
+                <alternativa correta="nao">enquanto condição faça</alternativa>
+                <alternativa correta="nao">escreva("condição")</alternativa>
+                <alternativa correta="nao">fim-enquanto</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual comando é usado para ler dados do usuário em pseudocódigo?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">escreva()</alternativa>
+                <alternativa correta="nao">se então</alternativa>
+                <alternativa correta="nao">enquanto faça</alternativa>
+                <alternativa correta="sim">leia(variável)</alternativa>
+                <alternativa correta="nao">retorne variável</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>O que significa a seguinte instrução em pseudocódigo: total &lt;- a + b?</enunciado>
+            <pontuação>1.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Compara os valores de a e b</alternativa>
+                <alternativa correta="sim">Atribui à variável total a soma de a e b</alternativa>
+                <alternativa correta="nao">Exibe a soma de a e b na tela</alternativa>
+                <alternativa correta="nao">Lê os valores de a e b do teclado</alternativa>
+                <alternativa correta="nao">Declara a variável total como soma</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>

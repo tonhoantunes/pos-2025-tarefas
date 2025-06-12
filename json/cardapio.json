@@ -1,0 +1,97 @@
+{
+    "cardapio": {
+      "itens":
+      [
+        {
+          "id": "I01",
+          "nome_prato": "Salada Mediterrânea",
+          "descricao": "Uma salada leve e refrescante com ingredientes típicos da culinária mediterrânea.",
+          "ingredientes": [
+            "Alface romana",
+            "Tomate-cereja",
+            "Pepino",
+            "Azeitonas pretas",
+            "Queijo feta",
+            "Cebola roxa",
+            "Azeite de oliva",
+            "Orégano"
+          ],
+          "preco": "R$ 28,00",
+          "calorias": "230 kcal",
+          "tempo_preparo": "10 minutos"
+        },
+        {
+          "id": "I02",
+          "nome_prato": "Spaghetti à Bolonhesa",
+          "descricao": "Massa al dente servida com molho de carne moída e tomate caseiro.",
+          "ingredientes": [
+            "Spaghetti",
+            "Carne bovina moída",
+            "Molho de tomate",
+            "Cebola",
+            "Alho",
+            "Azeite",
+            "Sal",
+            "Pimenta-do-reino",
+            "Manjericão"
+          ],
+          "preco": "R$ 42,00",
+          "calorias": "580 kcal",
+          "tempo_preparo": "20 minutos"
+        },
+        {
+          "id": "I03",
+          "nome_prato": "Frango Grelhado com Legumes",
+          "descricao": "Filé de frango grelhado acompanhado de legumes salteados no azeite.",
+          "ingredientes": [
+            "Peito de frango",
+            "Abobrinha",
+            "Cenoura",
+            "Pimentão",
+            "Brócolis",
+            "Azeite de oliva",
+            "Alho",
+            "Ervas finas"
+          ],
+          "preco": "R$ 36,00",
+          "calorias": "410 kcal",
+          "tempo_preparo": "18 minutos"
+        },
+        {
+          "id": "I04",
+          "nome_prato": "Burger Artesanal S&A",
+          "descricao": "Hambúrguer artesanal com blend de carnes nobres, servido com queijo cheddar, alface, tomate e molho da casa.",
+          "ingredientes": [
+            "Pão brioche",
+            "Hambúrguer 180g (blend bovino)",
+            "Queijo cheddar",
+            "Alface americana",
+            "Tomate",
+            "Cebola caramelizada",
+            "Maionese artesanal"
+          ],
+          "preco": "R$ 39,00",
+          "calorias": "780 kcal",
+          "tempo_preparo": "15 minutos"
+        },
+        {
+          "id": "I05",
+          "nome_prato": "Risoto de Cogumelos",
+          "descricao": "Risoto cremoso preparado com cogumelos frescos e finalizado com parmesão.",
+          "ingredientes": [
+            "Arroz arbóreo",
+            "Cogumelos frescos",
+            "Caldo de legumes",
+            "Vinho branco",
+            "Cebola",
+            "Alho",
+            "Manteiga",
+            "Queijo parmesão"
+          ],
+          "preco": "R$ 45,00",
+          "calorias": "520 kcal",
+          "tempo_preparo": "25 minutos"
+        }
+      ]
+    }
+  }
