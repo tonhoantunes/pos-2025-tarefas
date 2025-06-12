@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE quiz SYSTEM "quiz.dtd">
 <quiz versao="1.0">
     <disciplina>Lógica de Programação</disciplina>
     <professor>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
     <item id="I01">
         <nome_prato>Salada Mediterrânea</nome_prato>
