@@ -1,0 +1,113 @@
+[
+    {
+        "descricao": "Apartamento de 2 quartos, 1 banheiro, sala e cozinha.",
+        "proprietario": {
+            "nome": "João da Silva",
+            "telefones": [
+                "11999998888",
+                "1123456789"
+            ],
+            "email": "joao.silva@email.com"
+        },
+        "endereco": {
+            "rua": "Rua das Flores",
+            "bairro": "Centro",
+            "cidade": "São Paulo",
+            "numero": "123"
+        },
+        "caracteristicas": {
+            "tamanho": "65",
+            "numQuartos": "2",
+            "numBanheiros": "1"
+        },
+        "valor": "350000.00"
+    },
+    {
+        "descricao": "Studio moderno com varanda.",
+        "proprietario": {
+            "nome": "Maria Oliveira",
+            "telefones": [
+                "11988887777"
+            ],
+            "email": null
+        },
+        "endereco": {
+            "rua": "Av. Paulista",
+            "bairro": "Bela Vista",
+            "cidade": "São Paulo",
+            "numero": "1500"
+        },
+        "caracteristicas": {
+            "tamanho": "40",
+            "numQuartos": "1",
+            "numBanheiros": "1"
+        },
+        "valor": "420000.00"
+    },
+    {
+        "descricao": "Casa térrea com quintal amplo.",
+        "proprietario": {
+            "nome": "Carlos Andrade",
+            "telefones": [
+                "11977776666"
+            ],
+            "email": "carlos.a@email.com"
+        },
+        "endereco": {
+            "rua": "Rua dos Pinheiros",
+            "bairro": "Pinheiros",
+            "cidade": "São Paulo",
+            "numero": "850"
+        },
+        "caracteristicas": {
+            "tamanho": "120",
+            "numQuartos": "3",
+            "numBanheiros": "2"
+        },
+        "valor": "780000.00"
+    },
+    {
+        "descricao": "Terreno em bairro residencial plano.",
+        "proprietario": {
+            "nome": "Fernanda Lima",
+            "telefones": [
+                "19987654321"
+            ],
+            "email": null
+        },
+        "endereco": {
+            "rua": "Rua das Hortênsias",
+            "bairro": "Vila Nova",
+            "cidade": "Campinas",
+            "numero": "0"
+        },
+        "caracteristicas": {
+            "tamanho": "360",
+            "numQuartos": "0",
+            "numBanheiros": "0"
+        },
+        "valor": "250000.00"
+    },
+    {
+        "descricao": "Casa de alto padrão com piscina e jardim.",
+        "proprietario": {
+            "nome": "Luciana Torres",
+            "telefones": [
+                "11933334444"
+            ],
+            "email": null
+        },
+        "endereco": {
+            "rua": "Av. Brasil",
+            "bairro": "Jardins",
+            "cidade": "São Paulo",
+            "numero": "456"
+        },
+        "caracteristicas": {
+            "tamanho": "200",
+            "numQuartos": "4",
+            "numBanheiros": "3"
+        },
+        "valor": "1350000.00"
+    }
+]
